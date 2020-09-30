@@ -1,0 +1,32 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(../Images/img7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#search {
+    margin: 15px 20%;
+    padding: 1%;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 15px;
+    outline: none;
+    font-size: 1.5vw;
+    background-color: rgb(195, 236, 250);
+}
+
+#faviorites {
+    position: relative;
+    left: 5%;
+}
+
+#searchResultsList
+{
+    height: 83vh;
+    overflow-y: scroll;
+}

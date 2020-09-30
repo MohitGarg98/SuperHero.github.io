@@ -1,0 +1,43 @@
+#navbar {
+    width: 100%;
+    height: 70px;
+    display:flex;
+    background-image: linear-gradient( rgb(35, 177, 224),  rgb(144, 221, 247));
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8vw;
+    margin: 0px 15px;
+    display: flex;
+    align-items: center;
+}
+
+li
+{
+    background-image: linear-gradient(rgb(195, 236, 250), rgb(144, 221, 247));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 2px auto;
+}
+
+img
+{
+    width: 22%;
+}
+
+button
+{
+    height: 40px;
+    font-size:  1.2vw;
+    width: 32%;
+    cursor: pointer;
+    outline: none;
+}

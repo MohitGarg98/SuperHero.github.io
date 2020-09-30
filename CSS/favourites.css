@@ -1,0 +1,37 @@
+body
+{
+    margin: 0;
+    background-image: url(../Images/img6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#navbar
+{ 
+    height: 50px;
+} 
+
+p
+{    
+    margin: 0px;        
+    padding: 10px;
+    font-size: 1.8vw;
+    background-image: linear-gradient( rgb(35, 177, 224),  rgb(144, 221, 247));
+}
+
+#home
+{
+    position: absolute;
+    right: 20px;
+    padding: 5px;
+    top: 5px;
+}
+
+#favouriteHeroesList
+{
+    height: 90vh;
+    overflow-y: scroll;
+    margin: 5px 0;
+}
